@@ -1,6 +1,9 @@
 fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
 openai
-black
-pytest
+httpx
 rich
-dotenv
+pytest
+black
