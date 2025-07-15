@@ -1,0 +1,6 @@
+fastapi
+openai
+black
+pytest
+rich
+dotenv
