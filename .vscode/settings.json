@@ -1,0 +1,33 @@
+{
+  "github.copilot.chat.agent.enabled": true,
+  "github.copilot.chat.agent.maxRequests": 25,
+  "github.copilot.chat.experimental.codeSearch": true,
+  "github.copilot.chat.experimental.useInstructionFiles": true,
+  "github.copilot.chat.experimental.summarizeAgentConversationHistory": true,
+  "github.copilot.chat.experimental.setupTests.enabled": true,
+  "github.copilot.chat.experimental.allowList": [
+    "/*mkdir*/",
+    "/*touch*/",
+    "/*npm*/",
+    "/*yarn*/",
+    "/*pip*/",
+    "/*python*/",
+    "/*poetry*/",
+    "/*git (status|add|commit|push|pull)*/",
+    "/*brew*/",
+    "/*code*/",
+    "/*cp*/",
+    "/*mv*/"
+  ],
+  "github.copilot.chat.experimental.denyList": [
+    "rm",
+    "rmdir",
+    "del",
+    "kill",
+    "curl",
+    "wget",
+    "eval",
+    "chmod",
+    "chown"
+  ]
+}
